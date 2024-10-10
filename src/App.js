@@ -1,9 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Header from './components/Header';
+import Body from './components/Body';
 
-const jsxHeading = (
-    <h1 className='head' tabIndex='5'>Food Delivery</h1>
-)
+const App = () => {
+    return(
+        <div className="app">
+            <Header/>
+            <Body/>
+
+        </div>
+    )
+}
 const rooot = ReactDOM.createRoot(document.getElementById('root'));
 
-rooot.render(jsxHeading);
+rooot.render(<App/>);

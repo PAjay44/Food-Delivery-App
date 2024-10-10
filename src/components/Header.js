@@ -1,5 +1,5 @@
 import React from "react";
-import { LOGO } from "../utils/Constant";
+import { LOGO } from "../Utils/Constants"
 import { useState } from "react";
 
 const Header = () => {

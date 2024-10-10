@@ -1,0 +1,61 @@
+.header {
+  border: 1px solid #000;
+  justify-content: space-between;
+  display: flex;
+}
+
+.logo {
+  width: 200px;
+}
+
+.nav-items > ul {
+  font-size: 24px;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  margin: 10px;
+  padding: 10px;
+}
+
+.search {
+  padding: 10px;
+}
+
+.res-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.res-card {
+  width: 200px;
+  margin: 10px;
+  padding: 2px;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+.res-logo {
+  width: 100%;
+}
+
+.login {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+.shimmer-container {
+  display: flex;
+}
+
+.shimmer-card {
+  background-color: gray;
+  width: 200px;
+  height: 400px;
+  margin: 20px;
+}
+/*# sourceMappingURL=index.61d3354a.css.map */
